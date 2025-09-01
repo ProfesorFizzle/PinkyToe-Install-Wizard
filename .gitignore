@@ -1,0 +1,36 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+
+# Logs / caches
+*.log
+*.cache
+*.pyc
+*.pdb
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Crash / temp
+*.tmp
+~$*
+
+# Do not commit secrets
+secrets.txt
+*.key
+*.pem

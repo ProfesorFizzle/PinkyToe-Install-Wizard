@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>PinkyToeInstallWizard</RootNamespace>
+    <AssemblyName>PinkyToeInstallWizard</AssemblyName>
+    <ApplicationIcon>pinkytoe.ico</ApplicationIcon>
+    <AssemblyTitle>PinkyToeInstallWizard</AssemblyTitle>
+    <AssemblyVersion>1.2.2.0</AssemblyVersion>
+    <FileVersion>1.2.2.0</FileVersion>
+    <Product>PinkyToe Install Wizard</Product>
+    <Company>PinkyToe Team</Company>
+    <Description>Installer for pre-installed game archives with heuristic main exe detection, icon-assisted selection, progress, ETA, and shortcut options.</Description>
+    <Authors>ProfesorFizzle</Authors>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="pinkytoe.ico" />
+    <None Remove="logo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="pinkytoe.ico" />
+    <EmbeddedResource Include="logo.jpg" />
+    <EmbeddedResource Include="pinkytoe.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpCompress" Version="0.40.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>f935dc20-1cf0-11d0-adb9-00c04fd58a0b</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+</Project>
