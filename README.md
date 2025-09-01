@@ -1,5 +1,7 @@
 # PinkyToe Install Wizard (v1.2.2beta1)
 
+![PinkyToe Install Wizard Logo](logo.jpg)
+
 A tiny Windows tool to drop your “pre‑installed” game archive into and get:
 - Clean extraction into a chosen games folder
 - Automatic / assisted main EXE detection (now smarter + shows icons)
