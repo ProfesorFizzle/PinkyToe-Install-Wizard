@@ -1,4 +1,5 @@
 # PinkyToe Install Wizard (v1.2.2beta1)
+*This project was coded entirely in CoPilot, I am not a coder.
 
 ![PinkyToe Install Wizard Logo](logo.jpg)
 
