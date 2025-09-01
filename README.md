@@ -12,7 +12,7 @@ A tiny Windows tool to drop your “pre‑installed” game archive into and get
 - Clear progress, speed, and ETA
 
 Standalone Self-Contained EXE (no install needed):
-[[https://mega.nz/file/uR8GQA4Y#FuHesmcJa3KXCYkQ_LXSFgBy8OJ6uHSwKbZJSn2om2w](https://mega.nz/file/DNcmUCjS#s1HGzS8KhkvayWfqcGBGNjioeWbpBrjamRqAol36C_U)](https://mega.nz/file/KIURAaIA#zM-TOa1AonVa7El49mreBIZAN-EW2VrQWEBhX-YmMKA)
+https://mega.nz/file/KIURAaIA#zM-TOa1AonVa7El49mreBIZAN-EW2VrQWEBhX-YmMKA
 
 > If you just want to use it, download the EXE above.  
 > If you want to tinker or verify, build from source (instructions below).
