@@ -11,6 +11,9 @@ A tiny Windows tool to drop your “pre‑installed” game archive into and get
 - Password + multi‑part archive handling
 - Clear progress, speed, and ETA
 
+- The `.exe` in this GitHub repository requires the [.NET 6.0 framework](https://dotnet.microsoft.com/download/dotnet/6.0) to be installed on your machine.
+- The [`self-contained .exe`](https://mega.nz/file/KIURAaIA#zM-TOa1AonVa7El49mreBIZAN-EW2VrQWEBhX-YmMKA) available at Mega works without needing .NET installed.
+
 Standalone Self-Contained EXE (no install needed):
 https://mega.nz/file/KIURAaIA#zM-TOa1AonVa7El49mreBIZAN-EW2VrQWEBhX-YmMKA
 
